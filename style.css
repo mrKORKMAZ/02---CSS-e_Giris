@@ -1,63 +1,18 @@
 *{
     margin: 0;
-    padding: ;
+    padding: 0;
     box-sizing: border-box;
 }
- /* body{
-    background-color: yellow;
-}
 
-#main{
+
+/* input:focus{
+    background-color: black;
+} */
+
+.scroll{
     background-color: cyan;
-    padding: 15px;
-    margin: auto;
-    width: 150px;
-    height: 250px;
-    color: blue;
-}
-
-.class{
-    background-color: red;
-    margin: 30px 20px 15px ;
-    
-
-}
-
-/* 
-p{
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem; /*? 1rem = 16px
-    /* font-size: 1vw; /*? 1vw sayfanın %1'i /* */
-    /* font-size: 10%; */
-    font-style: italic;
-    text-indent: 20px;
-} */ */
-
-.rlt{
-    direction: rtl;
-} */
-.link{
-    color: blue;
-}
-.link:hover{
-    color: green;
-}
-.link:active{
-    color: red;    
-}
-.link:visited{
-    color: cyan;
-}
-
-/* p:last-child{
-    color: blueviolet;
-    padding: 20px;
-    border: 3px solid red;
-} */
-div .x:last-child{
-    color:bisque;
-    padding: 25px;
-    border: 5px solid green;
-  
+    width: 200px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
